@@ -1,0 +1,18 @@
+lst=[1,2,3,4,5,6,7,8,9,0]
+lst.append(11)
+print("appended list:",lst)
+lst.remove(5)
+print("removed list:",lst)
+lst.reverse()
+print("reversed list:",lst)
+lst.sort()
+print("sorted list:",lst)
+lst.pop(1)
+print("popped list:",lst)
+lst.reverse()
+print("reversed list:",lst)
+print("Multiplied list",lst*2)
+lst[:4]
+print("Sliced list:",lst)
+lst.clear()
+print("cleared list:",lst)
